@@ -1,0 +1,69 @@
+.resumeHello {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.resumeHello h2{
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+}
+
+.aboutContainer {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.aboutFirstBlock {
+    display: flex;
+    margin: 25px;
+}
+
+.aboutFirstBlock p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutSecondBlock {
+    display: flex;
+    margin: 25px;
+}
+
+.aboutSecondBlock p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutThirdBlock {
+    display: flex;
+    margin: 25px;
+}
+
+.aboutThirdBlock p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resumeDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.resumeH2 {
+    color: rgb(0, 0, 152);
+    font-family: 'Moldyen', sans-serif;
+    font-size: 65pt;
+    margin: 0;
+}
+
+.resumeImg {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
