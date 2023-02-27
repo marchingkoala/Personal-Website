@@ -67,3 +67,20 @@
     margin-top: 50px;
     justify-content: center;
 }
+
+@media screen and (max-width: 601px) {
+.resumeHello {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    }
+.resumeHello h2 {
+    font-size: 35pt;
+    margin: 0;
+}
+.resumeH2 {
+    font-size: 35pt;
+    margin: 0;
+}
+}
