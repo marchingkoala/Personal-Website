@@ -50,3 +50,27 @@
     font-family: 'Montserrat', sans-serif;
     margin: 3px;
 }
+
+@media screen and (max-width: 601px) {
+.h2Container {
+    margin-bottom: 30px;
+}
+.h2Container h2 {
+    font-size: 35pt;
+}
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 2pt solid rgb(0, 0, 152);
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.projectdecrb {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 15px;
+}
+}
