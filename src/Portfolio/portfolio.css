@@ -1,0 +1,52 @@
+.h2Container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.h2Container h2 {
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+}
+
+.projectSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 2pt solid rgb(0, 0, 152);
+    margin: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.projectSection h2 {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45pt;
+}
+
+.projectdecrb {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.projectdecrb p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px;
+}
+
+.projectdecrb a {
+    text-decoration: none;
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    margin: 3px;
+}
