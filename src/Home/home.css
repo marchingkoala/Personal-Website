@@ -1,0 +1,87 @@
+.firstBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.creative {
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.firstparagraph {
+    margin-left: 50px;
+    margin-bottom: 22px;
+}
+
+.firstparagraph p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.secondBlock {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 135px;
+}
+
+.developer {
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+}
+
+.thirdBLock{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.star {
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.thirdBlockcontent{
+    width: 600px;
+}
+
+.thirdBlockcontent p{
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+}
+
+.fourthBlock {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.designer {
+    color: rgb(0, 0, 152);
+    /* font-family: 'Westiga', sans-serif; */
+    /* font-family: 'Nigelina', sans-serif; */
+    font-family: 'Moldyen', sans-serif;
+    font-size: 85pt;
+    margin: 0;
+}

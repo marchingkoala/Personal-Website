@@ -1,10 +1,16 @@
 .homeNav {
-  padding: 10px;
-  border-bottom: 2px solid red;
+  padding: 20px;
+  border-bottom: 2px solid rgb(0, 0, 152);
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 152);
 }
