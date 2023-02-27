@@ -1,0 +1,10 @@
+.homeNav {
+  padding: 10px;
+  border-bottom: 2px solid red;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
