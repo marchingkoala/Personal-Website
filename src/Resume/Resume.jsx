@@ -21,7 +21,7 @@ const Resume = () => {
                 <h2 className='resumeH2'>Resume</h2>
                 </div>
                 <div className='resumeImg'>
-                    <img src="../public/Carmine Yijin Ro_Resume.jpg" width="80%"/>
+                    <img src="/Carmine Yijin Ro_Resume.jpg" width="80%"/>
                 </div>
             </div>
         </div>

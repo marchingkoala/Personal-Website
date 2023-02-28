@@ -1,9 +1,23 @@
 import React from 'react';
+import './contact.css';
 
 const Contact = () => {
+
+    const email = () => {
+        window.open('mailto:yri.carmine@gmail.com?subject=Subject&body=Body%20goes%20here')
+    }
+
     return (
-        <div>
-            <h1>contact</h1>
+        <div className='contact_container'>
+            <div className='contactH2'>
+            <h2>Let's work together!</h2>
+            </div>
+            <div className='contactReach'>
+                <h2>* Reach me *</h2>
+            </div>
+            <div className='contactSection'>
+                <h2 onClick={email}>yri.carmine@gmail.com</h2>
+            </div>
         </div>
     );
 };
