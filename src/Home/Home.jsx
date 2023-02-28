@@ -23,6 +23,7 @@ const Home = () => {
         </div>
       </div>
       <div className='fourthBlock'>
+          <h2 className='designer_border'>Designer</h2>
           <h2 className='designer'>Designer</h2>
       </div>
     </div>
