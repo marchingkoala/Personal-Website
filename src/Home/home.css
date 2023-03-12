@@ -1,3 +1,7 @@
+.homeBody {
+    min-height: 100vh;
+}
+
 .firstBlock {
     display: flex;
     flex-direction: row;
@@ -46,6 +50,16 @@
     justify-content:flex-end;
     margin-top: 20px;
     margin-right: 100px;
+}
+
+.hero-container {
+    position: relative;
+    z-index: 10000;
+    width: 100%;
+}
+
+.hero {
+    bottom: 0;
 }
 
 .star {
@@ -112,6 +126,18 @@
     position: absolute;
 }
 
+.fifthBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 250px;
+    margin-top: 110px;
+}
+
+.fifthBlock img {
+    display: flex;
+}
+
 @media screen and (max-width: 601px) {
 .creative{
     font-size: 35pt;
@@ -155,5 +181,14 @@
     display: flex;
     margin-top: 0px;
     margin-left: 35px;
+}
+.fifthBlock{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: auto;
+}
+.fifthBlock img{
+    width: 150px;
 }
 }
