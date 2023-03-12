@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .contactH2 h2 {
@@ -31,16 +32,22 @@
 }
 
 @media screen and (max-width: 601px) {
+.contactH2{
+    flex-wrap: wrap;
+}
 .contactH2 h2 {
-    font-size: 30pt;
+    font-size: 25pt;
     margin-top: 15px;
     }
 .contactReach h2{
-    font-size: 25pt;
+    font-size: 18pt;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.contactSection{
+    flex-wrap: wrap;
+}
 .contactSection h2{
-    font-size: 25pt;
+    font-size: 18pt;
 }
 }

@@ -8,7 +8,7 @@ const Contact = () => {
     }
 
     return (
-        <div className='contact_container'>
+        <div className='contact_container' id="contactJSX">
             <div className='contactH2'>
             <h2>Let's work together!</h2>
             </div>
