@@ -5,6 +5,7 @@ import Contact from './Contact/Contact.jsx';
 import Home from './Home/Home';
 import Resume from './Resume/Resume.jsx'
 import {Link} from 'react-scroll';
+import Skill from './Skill/Skill';
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
       </div>
       <div className='component_divider'>
         <Portfolio />
+      </div>
+      <div className='component_divider'>
+        <Skill />
       </div>
       <div className='component_divider'>
         <Contact />

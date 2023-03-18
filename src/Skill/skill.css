@@ -1,0 +1,41 @@
+.skill_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.skill_leftblock {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.designDescrb {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.designDescrb h2{
+    color: rgb(0, 0, 152);
+    font-family: 'Moldyen', sans-serif;
+    font-size: 35pt;
+    margin: 0;
+}
+
+.designDescrb p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skillIcons{
+    margin: 20px;
+}
+
+.skillIcons img {
+    margin: 5px;
+}
