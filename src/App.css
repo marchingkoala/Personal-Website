@@ -24,4 +24,9 @@ a {
     width: auto;
     margin: 0;
   }
+  nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }

@@ -55,7 +55,19 @@ const Home = () => {
           <h2 className='designer'>Designer</h2>
       </div>
       <div className='fifthBlock'>
-        <img src="./profile_photo.png" width="250px"/>
+        <div></div>
+        <div className='fifthImg'>
+          <img src='./javascript.png' width="70px" />
+          <img src='./html.png' width="70px" />
+          <img src='./css.png' width="70px" />
+          <img src='./node.png' width="70px" />
+          <img src='./react.png' width="70px" />
+          <img src='./typescript.png' width="70px" />
+          <img src='./redux.png' width="70px" />
+          <img src='./awslambda.png' width="70px" />
+          <img src='./postgresql.png' width="70px" />
+          <img src='./git.png' width="70px" />
+        </div>
       </div>
     </div>
     );
