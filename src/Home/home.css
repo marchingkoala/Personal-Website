@@ -1,5 +1,6 @@
 .homeBody {
     min-height: 100vh;
+    background-color: black;
 }
 
 .firstBlock {
@@ -10,7 +11,10 @@
 }
 
 .creative {
-    color: rgb(0, 0, 152);
+    /* color: rgb(0, 0, 152); */
+    background: -webkit-linear-gradient(rgb(255, 80, 150), rgb(188, 249, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Moldyen', sans-serif;
     font-size: 85pt;
     margin: 0;
@@ -23,7 +27,7 @@
 }
 
 .firstparagraph p {
-    color: rgb(0, 0, 152);
+    color: rgb(188, 249, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -36,7 +40,9 @@
 }
 
 .developer {
-    color: rgb(0, 0, 152);
+    background: -webkit-linear-gradient(rgb(188, 249, 255), rgb(132, 228, 255), rgb(135, 71, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
@@ -63,7 +69,7 @@
 }
 
 .star {
-    color: rgb(0, 0, 152);
+    color:rgb(255, 165, 201);
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
@@ -78,7 +84,10 @@
 }
 
 .thirdBlockcontent p{
-    color: rgb(0, 0, 152);
+    /* color: rgb(188, 249, 255); */
+    background-image: linear-gradient(60deg, rgb(170, 146, 255), rgb(189, 222, 255));
+    -webkit-background-clip: text;
+    color: transparent;
     font-family: 'Montserrat', sans-serif;
     font-size: 16pt;
 }
@@ -90,21 +99,26 @@
 }
 
 .designer_border {
-    color: rgb(244, 243, 240);
+    color: black;
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
     font-size: 85pt;
     margin: 0;
     text-shadow: 
-    -1px -1px 0 rgb(0, 0, 152),
-    1px -1px 0 rgb(0, 0, 152),
-    -1px 1px 0 rgb(0, 0, 152),
-    1px 1px 0 rgb(0, 0, 152);
+    -1px -1px 0 rgb(188, 249, 255),
+    1px -1px 0 rgb(188, 249, 255),
+    -1px 1px 0 rgb(188, 249, 255),
+    1px 1px 0 rgb(188, 249, 255);
 }
 
 .designer {
-    color: rgb(0, 0, 152);
+    /* color: rgb(169, 122, 255); */
+    background: -webkit-linear-gradient(rgb(188, 249, 255),
+        rgb(132, 228, 255),
+        rgb(135, 71, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
@@ -130,7 +144,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 10%;
-    margin-top: 100px;
+    margin-top: 142px;
 }
 
 .fifthImg {

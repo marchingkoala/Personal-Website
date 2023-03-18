@@ -1,10 +1,10 @@
 .homeNav {
   padding: 20px;
-  border-bottom: 2px solid rgb(0, 0, 152);
+  border-bottom: 2px solid rgb(255, 174, 206);
   font-family: 'Montserrat', sans-serif;
   position: sticky;
   top: 0;
-  background-color: rgb(244, 243, 240);
+  background-color: black;
   opacity: 1;
 }
 
@@ -16,7 +16,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 152);
+  color: rgb(217, 252, 255);
 }
 
 @media screen and (max-width: 601px){

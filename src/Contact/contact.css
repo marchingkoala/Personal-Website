@@ -7,7 +7,9 @@
 }
 
 .contactH2 h2 {
-    color: rgb(0, 0, 152);
+    background: -webkit-linear-gradient(rgb(255, 80, 150), rgb(188, 249, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
@@ -22,7 +24,7 @@
     margin-top: 20px;
 }
 .contactReach h2{
-    color: rgb(0, 0, 152);
+    color: rgb(188, 249, 255);
     font-family: 'Moldyen', sans-serif;
     font-size: 40pt;
     margin-top: 50px;
@@ -30,7 +32,7 @@
 }
 
 .contactSection h2 {
-    color: rgb(0, 0, 152);
+    color: rgb(188, 249, 255);
     font-family: 'Moldyen', sans-serif;
     font-size: 30pt;
     text-decoration: underline;
