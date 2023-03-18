@@ -13,6 +13,7 @@ const Contact = () => {
             <h2>Let's work together!</h2>
             </div>
             <div className='contactReach'>
+                <img src="./profile_photo.png" width="250px"/>
                 <h2>* Reach me *</h2>
             </div>
             <div className='contactSection'>
