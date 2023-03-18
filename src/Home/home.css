@@ -128,25 +128,26 @@
 
 .fifthBlock{
     display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 100px;
+}
+
+.fifthImg {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-right: 250px;
-    margin-top: 110px;
+    width: 39%;
 }
 
-/* .innerfifth {
-    outline: 2px solid rgb(0, 0, 152);
-    border-radius: 20px;
+.fifthImg img {
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-} */
-
-.fifthBlock img {
-    display: flex;
+    margin: 8px;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 822px) {
+.homeBody{
+    height: 100vh;
+}
 .creative{
     font-size: 35pt;
 }
@@ -187,7 +188,7 @@
 }
 .fourthBlock {
     display: flex;
-    margin-top: 0px;
+    margin-top: 25px;
     margin-left: 35px;
 }
 .fifthBlock{
@@ -196,7 +197,11 @@
     margin-top: 100px;
     margin-right: auto;
 }
+.fifthImg {
+    width: 60%;
+}
 .fifthBlock img{
-    width: 150px;
+    width: 50px;
+    margin: 4px;
 }
 }

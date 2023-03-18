@@ -11,7 +11,7 @@
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
-    font-size: 85pt;
+    font-size: 45pt;
     margin: 0;
     margin-top: 30px;
 }
@@ -24,7 +24,7 @@
 .contactReach h2{
     color: rgb(0, 0, 152);
     font-family: 'Moldyen', sans-serif;
-    font-size: 50pt;
+    font-size: 40pt;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -32,7 +32,7 @@
 .contactSection h2 {
     color: rgb(0, 0, 152);
     font-family: 'Moldyen', sans-serif;
-    font-size: 50pt;
+    font-size: 30pt;
     text-decoration: underline;
 }
 
@@ -48,6 +48,9 @@
     font-size: 18pt;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.contactReach img{
+    width: 50%;
 }
 .contactSection{
     flex-wrap: wrap;
