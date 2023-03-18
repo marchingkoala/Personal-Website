@@ -55,13 +55,6 @@ const Home = () => {
           <h2 className='designer'>Designer</h2>
       </div>
       <div className='fifthBlock'>
-        {/* <div className='innerfifth'>
-          <p>>_ </p>
-          <p>person.name = "Carmine Yijin Ro"</p>
-          <p>person.position = "Software Engineer"</p>
-          <p>person.email = "yri.carmine@gmail.com"</p>
-          <p> // download resume at here</p>
-        </div> */}
         <img src="./profile_photo.png" width="250px"/>
       </div>
     </div>

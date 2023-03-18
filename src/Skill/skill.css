@@ -45,3 +45,31 @@
 .skillIcons img {
     margin: 5px;
 }
+
+@media screen and (max-width: 601px) {
+.skill_container{
+    flex-wrap: wrap;
+}
+.skillIcons img{
+    width: 60px;
+    height: auto;
+}
+.skill_leftblock {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.skill_rightblock {
+    margin: none;
+    align-items: center;
+}
+.fashion_photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fashion_photos img{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+}
