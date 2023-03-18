@@ -8,7 +8,10 @@
 }
 
 .h2Container h2 {
-    color: rgb(0, 0, 152);
+    background: -webkit-linear-gradient(rgb(255, 174, 206), rgb(188, 249, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: rgb(255, 174, 206); */
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
@@ -16,7 +19,9 @@
     margin-bottom: 10px;
 }
 .h2Container p {
-    color: rgb(0, 0, 152);
+    background: -webkit-linear-gradient(rgb(255, 174, 206), rgb(188, 249, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
     margin-left: 100px;
@@ -29,14 +34,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-top: 2pt solid rgb(0, 0, 152);
+    border-top: 2pt solid rgb(255, 174, 206);
     margin: 20px;
     margin-left: 35px;
     margin-right: 35px;
 }
 
 .projectSection h2 {
-    color: rgb(0, 0, 152);
+    color: rgb(217, 252, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 45pt;
 }
@@ -48,16 +53,17 @@
 }
 
 .projectdecrb p {
-    color: rgb(0, 0, 152);
+    color: rgb(217, 252, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 3px;
 }
 
 .projectdecrb a {
     text-decoration: none;
-    color: rgb(0, 0, 152);
+    color: rgb(255, 174, 206);
     font-family: 'Montserrat', sans-serif;
     margin: 3px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 601px) {

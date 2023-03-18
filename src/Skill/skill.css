@@ -25,14 +25,16 @@
 }
 
 .designDescrb h2{
-    color: rgb(0, 0, 152);
+    background: -webkit-linear-gradient(rgb(255, 174, 206), rgb(188, 249, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Moldyen', sans-serif;
     font-size: 35pt;
     margin-bottom: 20px;
 }
 
 .designDescrb p {
-    color: rgb(0, 0, 152);
+    color: rgb(188, 249, 255);
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -44,6 +46,19 @@
 
 .skillIcons img {
     margin: 5px;
+}
+
+.target{
+    color: rgb(255, 86, 86);
+}
+.amazon{
+    color: rgb(45, 185, 255)
+}
+.walmart{
+    color: rgb(255, 255, 57);
+}
+.adobe {
+    color: rgb(255, 108, 184);
 }
 
 @media screen and (max-width: 601px) {

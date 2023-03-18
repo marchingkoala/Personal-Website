@@ -7,8 +7,8 @@ const Skill = () => {
             <div className='skill_leftblock'>
                 <div className='designDescrb'>
                     <h2>Fashion Design</h2>
-                    <p>Before my transition to software engineering, I was a fashion designer. I've worked with mass market companies like<span className='target'>Target</span>,<span className='amazon'>Amazon</span> and <span className='walmart'>Walmart</span></p>
-                    <p>I'm proficient in <b>Adobe Creative Cloud</b> applications and also have some experience in video editing</p>
+                    <p>Before my transition to software engineering, I was a fashion designer. I've worked with mass market companies like <span className='target'>Target</span>, <span className='amazon'>Amazon</span> and <span className='walmart'>Walmart</span></p>
+                    <p>I'm proficient in <span className='adobe'>Adobe Creative Cloud</span> applications and also have experience in video editing</p>
                 </div>
                 <div className='skillIcons'>
                     <img src="./photoshop.png" width="100px" />
