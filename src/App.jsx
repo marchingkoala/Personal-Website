@@ -14,7 +14,8 @@ function App() {
       <div className='homeNav'>
         <nav>
           <Link to="homeJSX" spy={true} smooth={true} duration={500}>Carmine Yijin  Ro</Link>
-          <Link to="portfolioJSX" spy={true} smooth={true} duration={500}>Portfolio</Link>
+          <Link to="portfolioJSX" spy={true} smooth={true} duration={500}>Projects</Link>
+          <Link to="skillJSX" spy={true} smooth={true} duration={500}>Design</Link>
           <Link to="contactJSX" spy={true} smooth={true} duration={500}>Contact</Link>
         </nav>
       </div>

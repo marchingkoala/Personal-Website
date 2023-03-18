@@ -3,7 +3,7 @@ import './skill.css';
 
 const Skill = () => {
     return (
-        <div className='skill_container'>
+        <div className='skill_container' id="skillJSX">
             <div className='skill_leftblock'>
                 <div className='designDescrb'>
                     <h2>Fashion Design</h2>

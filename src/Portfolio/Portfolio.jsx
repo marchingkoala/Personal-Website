@@ -5,7 +5,8 @@ const Portfolio = () => {
     return (
         <div className='portcontainer' id="portfolioJSX">
             <div className='h2Container'>
-                <h2 className='portH2'>Portfolio</h2>
+                <h2 className='portH2'>Projects</h2>
+                <p>As a recent graduate of <span>The Fullstack Academy</span>, I had the opportunity to learn tech stacks and collaborate with other engineers to create innovative web applications.</p>
             </div>
             <div className='projectSection'>
                 <h2>01</h2>

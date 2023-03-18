@@ -1,8 +1,10 @@
 .h2Container {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .h2Container h2 {
@@ -10,8 +12,13 @@
     /* font-family: 'Westiga', sans-serif; */
     /* font-family: 'Nigelina', sans-serif; */
     font-family: 'Moldyen', sans-serif;
-    font-size: 85pt;
-    margin: 0;
+    font-size: 35pt;
+    margin-bottom: 10px;
+}
+.h2Container p {
+    color: rgb(0, 0, 152);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
 }
 
 .projectSection {
