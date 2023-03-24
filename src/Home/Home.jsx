@@ -57,16 +57,16 @@ const Home = () => {
       <div className='fifthBlock'>
         <div></div>
         <div className='fifthImg'>
-          <img src='./javascript.png' width="70px" />
-          <img src='./html.png' width="70px" />
-          <img src='./css.png' width="70px" />
-          <img src='./node.png' width="70px" />
-          <img src='./react.png' width="70px" />
-          <img src='./typescript.png' width="70px" />
-          <img src='./redux.png' width="70px" />
-          <img src='./awslambda.png' width="70px" />
-          <img src='./postgresql.png' width="70px" />
-          <img src='./git.png' width="70px" />
+          <img src='./javascript.png' width="70px" height= "auto" alt="javascript_icon"/>
+          <img src='./html.png' width="70px" height= "auto" alt="html_icon"/>
+          <img src='./css.png' width="70px" height= "auto" alt="css_icon"/>
+          <img src='./node.png' width="70px" height= "auto" alt="node_icon"/>
+          <img src='./react.png' width="70px" height= "auto" alt="react_icon"/>
+          <img src='./typescript.png' width="70px" height= "auto" alt="typescript_icon"/>
+          <img src='./redux.png' width="70px" height= "auto" alt="redux_icon"/>
+          <img src='./awslambda.png' width="70px" height= "auto" alt="awsLambda_icon"/>
+          <img src='./postgresql.png' width="70px" height= "auto" alt="psql_icon"/>
+          <img src='./git.png' width="70px" height= "auto" alt="git_icon"/>
         </div>
       </div>
     </div>
